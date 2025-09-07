@@ -1,0 +1,95 @@
+.within-reach-section {
+  background-color: var(--purple);
+}
+
+.within-reach-container {
+  background-color: #3edcb1;
+  max-width: 90%;
+}
+
+.think-coin-shape-1 {
+  top: 55%;
+  right: 0%;
+  height: 120px;
+  transform: rotate(-23deg);
+  z-index: 100;
+}
+
+.think-coin-shape-2 {
+  top: -10%;
+  left: 5%;
+  transform: rotate(30deg);
+  height: 100px;
+  z-index: 100;
+}
+
+.wavy-line {
+  /* height: 20vw; */
+  width: 100%;
+}
+
+.wavy-left {
+  left: 0;
+}
+
+.wavy-line-1 {
+  top: 30%;
+}
+
+.wavy-line-2 {
+  top: 45%;
+}
+
+.wavy-line-3 {
+  top: 60%;
+}
+
+.wavy-right {
+  right: 1%;
+}
+
+.wavy-line-4 {
+  top: 28%;
+}
+
+.wavy-line-5 {
+  top: 43%;
+}
+
+.wavy-line-6 {
+  top: 56%;
+}
+
+@media screen and (max-width: 767px) {
+  .wavy-right {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .wavy-left,
+  .wavy-right {
+    width: 50%;
+  }
+  .wavy-right {
+    transform: rotate(-12deg);
+  }
+}
+
+.copyright {
+  position: absolute;
+  bottom: 1rem;
+  justify-items: flex-end;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.copyright-img {
+  width: 20px;
+}
+.copyright-text {
+  color: var(--white);
+  font-size: 1.7rem;
+  font-weight: 300;
+}

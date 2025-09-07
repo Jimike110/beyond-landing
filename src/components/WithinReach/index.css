@@ -1,0 +1,49 @@
+.within-reach-section {
+  background-color: var(--purple);
+}
+
+.within-reach-container {
+  background-color: #3edcb1;
+  max-width: 90%;
+}
+
+.bg-shape-1 {
+  top: 5%;
+  right: 0%;
+}
+
+.bg-shape-2 {
+  top: 25%;
+  right: 0%;
+  transform: rotate(180deg);
+}
+
+.bg-shape-3 {
+  top: 45%;
+  right: 0%;
+}
+
+.bg-shape-4 {
+  top: 65%;
+  right: 0;
+  transform: rotate(180deg);
+}
+
+.bg-shape-5 {
+  top: 85%;
+  right: 0;
+}
+
+.bg-shape-left {
+    left: 0;
+}
+
+.bg-shape-1.bg-shape-left {
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width: 550px) {
+    .bg-shape-1.bg-shape-left {
+        display: none;
+}
+}
