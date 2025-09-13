@@ -40,19 +40,19 @@ const BeyondFeatures = () => {
   const features = [
     {
       title: "Send & receive",
-      description: "Seamlessly move your crypto in and out of Beyond with fast transfers whether you’re sending Bitcoin to a friend or receiving USDT for business, Beyond makes it secure, simple, and hassle-free."
+      description: "Seamlessly move your crypto in and out of Beyond with fast transfers. Whether you’re sending Bitcoin to a friend or receiving USDT for business, Beyond makes it secure, simple, and hassle-free."
     },
     {
       title: "On&Off ramp with ease",
-      description: "You can securely convert crypto to naira or buy with your local currency all without the risk of handling third parties. Whether you are cashing out or buying in, Beyond makes the process simple and safe."
+      description: "You can securely convert crypto to naira or buy with your local currency, all without the risk of handling third parties. Whether you are cashing out or buying in, Beyond makes the process simple and safe."
     },
     {
       title: "Instant swaps",
-      description: "Move seamlessly between different cryptocurrencies with lightining fast swaps. Beyond makes it simple to exchange one crypto for another no complicated steps."
+      description: "Move seamlessly between different cryptocurrencies with lightning fast swaps. Beyond makes it simple to exchange one crypto for another. No complicated steps."
     },
     {
       title: "Quick setup",
-      description: "Getting started with Beyond is effortless. No complicated steps or long wait times. Create your account verify once and you’re ready to go."
+      description: "Getting started with Beyond is effortless. No complicated steps or long wait times. Create your account, verify once and you’re ready to go."
     }
   ];
 

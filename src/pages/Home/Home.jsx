@@ -47,7 +47,7 @@ const Home = () => {
                     <div className="hero-content">
                         <h1 className="hero-title">Beyond finance. Beyond barriers.</h1>
                         <p className="hero-subtitle">
-                            Beyond is the most intuitive way to buy, sell, deposit, withdraw and trade cryptocurrencies. Built for africa, powered by trust.                        </p>
+                            Beyond is the most intuitive way to buy, sell, deposit, withdraw and trade cryptocurrencies. Built for Africa, powered by trust.                        </p>
                         <button className="waitlist-btn"><a href='#waitlist'>Join the waitlist</a></button>
 
 
@@ -76,7 +76,7 @@ const Home = () => {
                 <h3 className='why-beyond-title'>
                     Why Beyond?
                 </h3>
-                <p className='why-beyond-desc'>We are on a mission to make crypto safe and accessible to everyone for too long crypto users have faced scams, delays and unreliable platforms.
+                <p className='why-beyond-desc'>We are on a mission to make crypto safe and accessible to everyone. For too long, crypto users have faced scams, delays and unreliable platforms.
                     Beyond changes that we believe crypto will power the next generation of finance.
                 </p>
             </section>

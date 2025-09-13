@@ -185,7 +185,7 @@ const BeyondSection = () => {
           </PhoneImageWrapper>
           <TextContent>
             <CardParagraph>
-              Beyond isn’t just another exchange we are building an ecosystem that connects global crypto liquidity to local markets in africa.
+              Beyond isn’t just another exchange. We are building an ecosystem that connects global crypto liquidity to local markets in Africa.
             </CardParagraph>
             <WaitlistButton href="#waitlist">
               Join the waitlist
