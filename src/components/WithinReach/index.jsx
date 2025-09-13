@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { bordered_rect, screenshot_2 } from '../../imports';
+import { bordered_rect, screenshot } from '../../imports';
 import './index.css';
 
 const SectionWrapper = styled.div`
@@ -143,6 +143,8 @@ const PhoneImage = styled.div`
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-inline: 3px solid var(--black);
+  border-top: 3px solid var(--black);
   border-radius: 15px 15px 0 0;
   margin-top: 5rem;
   z-index: 2;
@@ -179,7 +181,7 @@ const BeyondSection = () => {
             <BackgroundShapes className='bg-shape-3 bg-shape-left' src={bordered_rect} alt="Background shapes" />
             <BackgroundShapes className='bg-shape-4 bg-shape-left' src={bordered_rect} alt="Background shapes" />
             <BackgroundShapes className='bg-shape-5 bg-shape-left' src={bordered_rect} alt="Background shapes" />
-            <PhoneImage style={{ backgroundImage: `url(${screenshot_2})` }} alt="Beyond App" />
+            <PhoneImage style={{ backgroundImage: `url(${screenshot})` }} alt="Beyond App" />
           </PhoneImageWrapper>
           <TextContent>
             <CardParagraph>

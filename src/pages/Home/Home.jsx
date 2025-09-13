@@ -50,19 +50,20 @@ const Home = () => {
                             Beyond is the most intuitive way to buy, sell, deposit, withdraw and trade cryptocurrencies. Built for africa, powered by trust.                        </p>
                         <button className="waitlist-btn"><a href='#waitlist'>Join the waitlist</a></button>
 
-                        <div className="hero-image-container">
-                            <div
-                                className="hero-image"
-                                style={{ backgroundImage: `url(${header_mockup})` }}
-                            ></div>
-                            <img src={avatar_purple_lady} alt="floating avatar" className="floating-avatar avatar-1" />
-                            <img src={avatar_pink_guy} alt="floating avatar" className="floating-avatar avatar-2" />
-                            <img src={avatar_yellow_lady} alt="floating avatar" className="floating-avatar avatar-3" />
-                            <img src={avatar_purple_lady} alt="floating avatar" className="floating-avatar avatar-4" />
-                            <img src={coin3} alt="floating coin" className="floating-coin coin-3" />
-                            <img src={coin4} alt="floating coin" className="floating-coin coin-4" />
-                        </div>
+
                     </div>
+                </div>
+                <div className="hero-image-container">
+                    <div
+                        className="hero-image"
+                        style={{ backgroundImage: `url(${header_mockup})` }}
+                    ></div>
+                    <img src={avatar_purple_lady} alt="floating avatar" className="floating-avatar avatar-1" />
+                    <img src={avatar_pink_guy} alt="floating avatar" className="floating-avatar avatar-2" />
+                    <img src={avatar_yellow_lady} alt="floating avatar" className="floating-avatar avatar-3" />
+                    <img src={avatar_purple_lady} alt="floating avatar" className="floating-avatar avatar-4" />
+                    <img src={coin3} alt="floating coin" className="floating-coin coin-3" />
+                    <img src={coin4} alt="floating coin" className="floating-coin coin-4" />
                 </div>
             </div >
             <div className="container">
@@ -75,7 +76,7 @@ const Home = () => {
                 <h3 className='why-beyond-title'>
                     Why Beyond?
                 </h3>
-                <p className='why-beyond-desc'>We are on a mission to make crypto safe and accessible to everyone for too long crypto users have faced scams, delays and unreliable platforms. 
+                <p className='why-beyond-desc'>We are on a mission to make crypto safe and accessible to everyone for too long crypto users have faced scams, delays and unreliable platforms.
                     Beyond changes that we believe crypto will power the next generation of finance.
                 </p>
             </section>
