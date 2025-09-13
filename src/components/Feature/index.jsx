@@ -40,7 +40,7 @@ const BeyondFeatures = () => {
   const features = [
     {
       title: "Send & receive",
-      description: "With Beyond, you’re in full control of your assets instantly send or receive crypto across borders with just a few taps. No delays just simple decentralized transfers designed to keep you empowered"
+      description: "Seamlessly move your crypto in and out of Beyond with fast transfers whether you’re sending Bitcoin to a friend or receiving USDT for business, Beyond makes it secure, simple, and hassle-free."
     },
     {
       title: "On&Off ramp with ease",
@@ -48,11 +48,11 @@ const BeyondFeatures = () => {
     },
     {
       title: "Instant swaps",
-      description: "Move seamlessly between different cryptocurrencies with lightining fast swaps. Beyond makes it simple to exchange one crypto for another no complicated steps"
+      description: "Move seamlessly between different cryptocurrencies with lightining fast swaps. Beyond makes it simple to exchange one crypto for another no complicated steps."
     },
     {
       title: "Quick setup",
-      description: "Get started in 1 min Beyond makes wallet creation effortless and secure. Your wallet, your rules we never hold your funds giving you full control."
+      description: "Getting started with Beyond is effortless. No complicated steps or long wait times. Create your account verify once and you’re ready to go."
     }
   ];
 
